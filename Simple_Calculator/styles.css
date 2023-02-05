@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 .calculator {
     padding: 10px;
-    border-radius: 1em;
+    border-radius: 2em;
     height: 400px;
     width: 420px;
     margin: auto;
@@ -10,15 +10,17 @@
 }
 .display-box {
     font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    text-align: right;
     background-color: #dcdbe1;
     border: solid rgb(60, 19, 19) 0.5px;
     color: black;
-    border-radius: 5px;
+    border-radius: 2px;
     width: 100%;
     height: 65%;
 }
 #btn {
-    background-color: #ff0000;
+    background-color: #970f0f;
 }
 input[type=button] {
     font-size: 30px;
